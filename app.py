@@ -1,3 +1,6 @@
+import os
+print("Current working directory:", os.getcwd())
+print("Files in working directory:", os.listdir())
 import streamlit as st
 from rag_chain import qa_chain
 
